@@ -27,25 +27,25 @@ while natural_no>=1:
 
 natural_no=int(input("Enter a number: "))
 i=1
-while i<=natural_no:
+while i<=2*natural_no:
     print(i)
     i+=2
 
 5. Write a python script to print first N odd natural numbers in reverse order
 
-natural_no=int(input("Enter a number: "))
-i=1
-while natural_no>=1:
-    print(natural_no)
-    natural_no-=2
+n=int(input("Enter a number: "))
+i=2*n-1
+while i>=1:
+    print(i)
+    i-=2
 
 6. Write a python script to print first N even natural numbers
 
-no=int(input("Enter a number: ")) 
-i=1
-while i<=no:
+n=int(input("Enter a number: ")) 
+i=2
+while i<=2*n:
     print(i)
-    i+=1
+    i+=2
 
 7. Write a python script to print first N even natural numbers in reverse order
 
@@ -61,7 +61,7 @@ while no>=i:
 no=int(input("Enter a number: ")) 
 i=1
 while i<=no:
-    print(i*i)
+    print(i*2)
     i+=1
 
 9. Write a python script to print cubes of first N natural numbers
@@ -69,7 +69,7 @@ while i<=no:
 no=int(input("Enter a number: ")) 
 i=1
 while i<=no:
-    print(i*i*i)
+    print(i*3)
     i+=1
     
 10. Write a python script to print first 10 multiples of N
